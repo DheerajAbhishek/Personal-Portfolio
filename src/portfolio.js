@@ -268,7 +268,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certificate of Achievement",
-          url: "https://drive.google.com/file/d/1G3LgNLCk1YGcGVYzhYl8iAaCTZmp__Rl/view?usp=drive_link"
+          url: "https://drive.google.com/file/d/1WlvFYjyIqABGEFBLQsrE-Mu4P5IylKTk/view?usp=sharing"
         },
         {
           name: "Winning Check",
