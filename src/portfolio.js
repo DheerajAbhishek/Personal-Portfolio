@@ -21,10 +21,12 @@ const illustration = {
 
 const greeting = {
   username: "Dheeraj Abhishek",
-  title: "Hi all, Dheeraj",
+  title: "Hi all, I'm Dheeraj",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Full Stack Developer who loves building sleek and scalable web apps using JavaScript, React.js, Node.js, and AWS — always exploring cool tools and frameworks!"
   ),
+
+
   resumeLink:
     "https://drive.google.com/file/d/1Ho9hAdFCTE0lUML7CppZLnLOX4RD4C9S/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -45,16 +47,17 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "What I do & My Skills",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS /"
-    )
+    emoji("⚡ Craft responsive and dynamic user interfaces using HTML, CSS, JavaScript, and React.js"),
+    emoji("⚡ Build Single Page Applications (SPA) with smooth routing and state management using React Router and Redux"),
+    emoji("⚡ Develop RESTful APIs and backend logic with Node.js, Express.js, and MongoDB / MySQL"),
+    emoji("⚡ Integrate third-party services and APIs like Firebase, Stripe, and Google Maps"),
+    emoji("⚡ Deploy and manage scalable web apps using AWS (EC2, S3, Route 53, Lambda, CloudFront)"),
+    emoji("⚡ Proficient in AWS tools: IAM, VPC, RDS, CloudWatch, S3 versioning, and DynamoDB basics"),
+    emoji("⚡ Version control with Git & GitHub, CI/CD workflows, and basic Docker usage"),
+    emoji("⚡ Currently preparing for AWS Certified Solutions Architect – Associate")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -109,6 +112,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "AWS Solution Architect ",
       fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Java ",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "C Programming",
+      fontAwesomeClassname: "far fa-c"
     }
 
   ],
