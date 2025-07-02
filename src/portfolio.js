@@ -173,7 +173,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Developer",
+      role: "Full Stack Developer (Intern)",
       company: "Zidio",
       companylogo: require("./assets/images/ZidioLogo.png"),
       date: "April 2025 – june 2025",
@@ -275,7 +275,7 @@ const achievementSection = {
       subtitle:
         "Developed a sign language translation system to bridge communication gaps for the hearing impaired ",
       image: require("./assets/images/d.jpg"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "Hackathon Winning Project",
       footerLink: [
         {
           name: "Certificate of Achievement",
@@ -284,6 +284,22 @@ const achievementSection = {
         {
           name: "Winning Check",
           url: "https://drive.google.com/file/d/1G3LgNLCk1YGcGVYzhYl8iAaCTZmp__Rl/view?usp=drive_link"
+        }
+      ]
+    }, {
+      title: "Completion of Internship at Zidio",
+      subtitle:
+        "Completed an internship at Zidio, where I developed an Excel Analytics Platform that processes Excel data to deliver actionable insights.",
+      image: require("./assets/images/internCert.jpg"),
+      imageAlt: "Internship Certificate",
+      footerLink: [
+        {
+          name: "Certificate of Internship",
+          url: "https://drive.google.com/file/d/1TFeMBDYfj1HedZkMO1eCgD_D4YZVLjJJ/view?usp=drive_link"
+        },
+        {
+          name: "Certificate of Training",
+          url: "https://drive.google.com/file/d/1iSzJ-j5CQlnfVxfsKyBmgM58mhuZI2xz/view?usp=drive_link"
         }
       ]
     },
