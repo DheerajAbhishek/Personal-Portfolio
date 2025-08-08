@@ -302,6 +302,19 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1iSzJ-j5CQlnfVxfsKyBmgM58mhuZI2xz/view?usp=drive_link"
         }
       ]
+    }, {
+      title: "Certified AWS Solutions Architect",
+      subtitle:
+        "Gained expertise in designing and deploying scalable, highly available, and fault-tolerant systems on AWS.",
+      image: require("./assets/images/AWScert.png"),
+      imageAlt: "Certificate",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1qQ5x3_qW63v39LOBghZLnaSZY-IQYorM/view"
+        }
+
+      ]
     },
 
 
