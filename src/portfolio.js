@@ -196,6 +196,19 @@ const workExperiences = {
         " Uses AI and image recognition to interpret hand gestures into readable text in real-time ",
       ]
     },
+    {
+      role: "Cloud developer (intern)",
+      company: "Swap Dietetics Pvt. Ltd.",
+      companylogo: require("./assets/images/swap.png"),
+      date: "june 2025 – August 2025",
+      desc: "Designed and developed a serverless analytics platform in AWS cloud",
+      descBullets: [
+        "Designed & deployed a serverless analytics platform using AWS Lambda, API Gateway, CloudFront, and S3. ",
+        "Built ETL pipelines to consolidate Swiggy & Zomato reports across Outlets. ",
+        "Automated dashboards with visual insights, cutting manual Excel reporting by 70%. ",
+      ]
+
+    },
     // {
     //   role: "Team Lead",
     //   company: "Collage Mini Project",
@@ -316,7 +329,19 @@ const achievementSection = {
 
       ]
     },
-
+    {
+      title: "Completion of Internship at SWAP Dietetics",
+      subtitle:
+        "Designed and developed an architecture for a serverless analytics platform in AWS cloud",
+      image: require("./assets/images/SWAPintern.png"),
+      imageAlt: "Internship Certificate",
+      footerLink: [
+        {
+          name: "Certificate of Internship",
+          url: "https://drive.google.com/file/d/1lysBLAr2X3oZIQm9WIdyX2aBxSuX385P/view?usp=drive_link"
+        }
+      ]
+    },
 
   ],
   display: true // Set false to hide this section, defaults to true
