@@ -28,7 +28,7 @@ const greeting = {
 
 
   resumeLink:
-    "https://drive.google.com/file/d/1Ho9hAdFCTE0lUML7CppZLnLOX4RD4C9S/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1mGY9HEOB6hwjDmkF_OsiMaMoOnCus7YZ/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -89,6 +89,18 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
+      skillName: "Firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "n8n",
+      fontAwesomeClassname: "fas fa-network-wired"
+    },
+    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -120,7 +132,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "C Programming",
       fontAwesomeClassname: "far fa-c"
-    }
+    },
 
   ],
   display: true // Set false to hide this section, defaults to true
@@ -173,6 +185,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Developer (intern) and automation",
+      company: "Restalytics.ai (with Swap Dietetics Pvt. Ltd.)",
+      companylogo: require("./assets/images/swap.png"),
+      date: "September 2025 - February 2026",
+      desc: "Building Restalytics.ai, an automation-first analytics platform (currently in development).",
+      descBullets: [
+        "Designed a serverless AWS stack with Lambda, API Gateway, CloudFront, and S3.",
+        "Built ETL pipelines to unify Swiggy and Zomato outlet reports.",
+        "Automated reporting workflows with n8n-powered dashboards, reducing manual Excel effort by 70%."
+      ]
+    },
+    {
       role: "Full Stack Developer (Intern)",
       company: "Zidio",
       companylogo: require("./assets/images/ZidioLogo.png"),
@@ -200,12 +224,13 @@ const workExperiences = {
       role: "Cloud developer (intern)",
       company: "Swap Dietetics Pvt. Ltd.",
       companylogo: require("./assets/images/swap.png"),
-      date: "june 2025 – August 2025",
-      desc: "Designed and developed a serverless analytics platform in AWS cloud",
+      date: "june 2025 – August 2026",
+      desc: "Developed SWAP Management, a multi-role web application.",
       descBullets: [
-        "Designed & deployed a serverless analytics platform using AWS Lambda, API Gateway, CloudFront, and S3. ",
-        "Built ETL pipelines to consolidate Swiggy & Zomato reports across Outlets. ",
-        "Automated dashboards with visual insights, cutting manual Excel reporting by 70%. ",
+        "Developed a multi-role web application connecting kitchen franchises, company admins, and auditors.",
+        "Built the frontend with ReactJS and implemented backend services on AWS.",
+        "Integrated secure API communication between the frontend and cloud backend.",
+        "Implemented transaction handling logic driven by website order data.",
       ]
 
     },
@@ -234,6 +259,17 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
+      image: require("./assets/images/restalyticsLogo.png"),
+      projectName: "Restalytics.ai",
+      projectDesc: "Startup project developed with Swap Dietetics Pvt. Ltd. Built as a serverless analytics platform with AWS + ETL pipelines, now focused on n8n-driven automation. Currently in development.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://restalytics.ai"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/EAPlogo.jpg"),
       projectName: "Excel Analytics Platform",
       projectDesc: "Developed an end-to-end analytics platform that processes Excel data to deliver actionable insights. Enabled dynamic charts, real-time filtering, and auto-generated reports to support data-driven decisions.",
@@ -241,8 +277,26 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://excel-analytics-platform-6hhl.vercel.app/"
+        },
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/DheerajAbhishek/Excel-Analytics-Platform"
         }
         //  you can add extra buttons here.
+      ]
+    },
+    {
+      projectName: "Skilledge - AI-Powered Resume Analyzer",
+      projectDesc: "A modern React-based resume analyzer that parses PDF resumes, detects skills, scores profiles, and generates personalized interview questions using Groq AI.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://skill-edge-zeta.vercel.app/"
+        },
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/DheerajAbhishek/Skill_edge"
+        }
       ]
     },
     {
@@ -253,6 +307,10 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://roadside-assistance-epzz.vercel.app/"
+        },
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/DheerajAbhishek/roadside-assistance"
         }
       ]
     }
