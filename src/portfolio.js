@@ -120,7 +120,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "github",
       fontAwesomeClassname: "fab fa-github"
     },
-    ,
     {
       skillName: "AWS Solution Architect ",
       fontAwesomeClassname: "fab fa-aws"
