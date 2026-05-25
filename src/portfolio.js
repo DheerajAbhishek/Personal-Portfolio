@@ -184,6 +184,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Developer",
+      company: "SwapNow Pvt Ltd",
+      companylogo: require("./assets/images/swap.png"),
+      date: "April 2026 - Present",
+      desc: "Built the production website and app for SwapNow.in.",
+      descBullets: [
+        "Developed and launched the core production website (swapnow.in).",
+        "Built and deployed the accompanying application for SwapNow users."
+      ]
+    },
+    {
       role: "Software Developer (intern) and automation",
       company: "Restalytics.ai (with Swap Dietetics Pvt. Ltd.)",
       companylogo: require("./assets/images/swap.png"),
@@ -257,6 +268,17 @@ const bigProjects = {
   title: "Projects",
   subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
   projects: [
+    {
+      image: require("./assets/images/swap.png"),
+      projectName: "SwapNow Website & App",
+      projectDesc: "Developed and launched the core production website and accompanying application for SwapNow.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://swapnow.in"
+        }
+      ]
+    },
     {
       image: require("./assets/images/restalyticsLogo.png"),
       projectName: "Restalytics.ai",
