@@ -409,6 +409,19 @@ const achievementSection = {
       ]
     },
     {
+      title: "Jr Penetration Tester — TryHackMe",
+      subtitle:
+        "Completed the Jr Penetration Tester Learning Path (30+ hours) covering web app security, networking, and ethical hacking fundamentals.",
+      image: require("./assets/images/thmCert.png"),
+      imageAlt: "TryHackMe Certificate",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/1c696gNvqvNVU9o4JN3Aa0gtMkvo2258n/view"
+        }
+      ]
+    },
+    {
       title: "Completion of Internship at SWAP Dietetics",
       subtitle:
         "Designed and developed an architecture for a serverless analytics platform in AWS cloud",
