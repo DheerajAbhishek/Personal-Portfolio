@@ -23,12 +23,12 @@ const greeting = {
   username: "Dheeraj Abhishek",
   title: "Hi all, I'm Dheeraj",
   subTitle: emoji(
-    "Full Stack Developer who loves building sleek and scalable web apps using JavaScript, React.js, Node.js, and AWS — always exploring cool tools and frameworks!"
+    "Solutions Architect building AI-powered cloud applications with AWS, React.js, and Python — driven by GenAI, computer vision, and serverless architecture."
   ),
 
 
   resumeLink:
-    "https://drive.google.com/file/d/1mGY9HEOB6hwjDmkF_OsiMaMoOnCus7YZ/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1nv-sYg7PjLwLqujXMEmPUdLSP5tnzmXr/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
