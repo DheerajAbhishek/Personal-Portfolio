@@ -171,6 +171,10 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
+      Stack: "Cloud/AWS",
+      progressPercentage: "85%"
+    },
+    {
       Stack: "Programming",
       progressPercentage: "60%"
     }
@@ -195,54 +199,42 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Developer (intern) and automation",
-      company: "Restalytics.ai (with Swap Dietetics Pvt. Ltd.)",
+      role: "Cloud Developer (Intern)",
+      company: "Swap Dietetics Pvt. Ltd. / SWAP Management & Restalytics.ai",
       companylogo: require("./assets/images/swap.png"),
-      date: "September 2025 - February 2026",
-      desc: "Building Restalytics.ai, an automation-first analytics platform (currently in development).",
+      date: "June 2025 – February 2026",
+      desc: "Built SWAP Management and Restalytics.ai — internal tools and analytics platform on AWS.",
       descBullets: [
+        "Developed a multi-role web application connecting kitchen franchises, company admins, and auditors.",
         "Designed a serverless AWS stack with Lambda, API Gateway, CloudFront, and S3.",
         "Built ETL pipelines to unify Swiggy and Zomato outlet reports.",
-        "Automated reporting workflows with n8n-powered dashboards, reducing manual Excel effort by 70%."
+        "Automated reporting workflows with n8n-powered dashboards, reducing manual Excel effort by 70%.",
+        "Integrated secure API communication with JWT/OAuth authentication and CORS enforcement."
       ]
     },
     {
       role: "Full Stack Developer (Intern)",
       company: "Zidio",
       companylogo: require("./assets/images/ZidioLogo.png"),
-      date: "April 2025 – june 2025",
-      desc: "Developed an Excel Analytics Platfom",
+      date: "April 2025 – June 2025",
+      desc: "Developed an Excel Analytics Platform",
       descBullets: [
-        "Developed a full-stack analytics dashboard using ReactJS, NodeJS, Express.js and  MongoDB",
+        "Developed a full-stack analytics dashboard using ReactJS, NodeJS, Express.js and DynamoDB",
         "Integrated AI-powered modules to generate actionable insights from uploaded Excel datasets.",
         "Implemented dynamic charting, data filtering, and reporting features"
       ]
     },
     {
       role: "Hackathon Lead Developer",
-      company: "Anurag University Hyderabadh",
+      company: "Anurag University Hyderabad",
       companylogo: require("./assets/images/aulogo.png"),
       date: "March 2025",
-      desc: "Built a sign language translartor",
+      desc: "Built a sign language translator",
       descBullets: [
-        " Winning Project of a Hackathon ",
-        "Built a sign language translation system to bridge communication gaps for the hearing impaired ",
-        " Uses AI and image recognition to interpret hand gestures into readable text in real-time ",
+        "Winning Project of a Hackathon",
+        "Built a sign language translation system to bridge communication gaps for the hearing impaired",
+        "Uses AI and image recognition to interpret hand gestures into readable text in real-time",
       ]
-    },
-    {
-      role: "Cloud developer (intern)",
-      company: "Swap Dietetics Pvt. Ltd.",
-      companylogo: require("./assets/images/swap.png"),
-      date: "june 2025 – August 2026",
-      desc: "Developed SWAP Management, a multi-role web application.",
-      descBullets: [
-        "Developed a multi-role web application connecting kitchen franchises, company admins, and auditors.",
-        "Built the frontend with ReactJS and implemented backend services on AWS.",
-        "Integrated secure API communication between the frontend and cloud backend.",
-        "Implemented transaction handling logic driven by website order data.",
-      ]
-
     },
     // {
     //   role: "Team Lead",
